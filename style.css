@@ -88,6 +88,10 @@ body {
     border-radius: 10px;
 }
 
+.title-detalhes {
+    width: 40vw;
+}
+
 .title-home h1 {
     font-size: 3rem;
     text-align: center;
@@ -101,7 +105,7 @@ body {
 
 .title-detalhes h2 {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .title-detalhes h3 {
@@ -112,6 +116,14 @@ body {
 
 .title-detalhes a:hover {
     color: black;
+}
+
+.title-detalhes p {
+    text-align: justify;
+}
+
+.empoderamento img {
+    margin-right: 50%;
 }
 
 .container-sobre {
