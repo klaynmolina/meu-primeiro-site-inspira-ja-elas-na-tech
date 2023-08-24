@@ -99,6 +99,21 @@ body {
     text-align: center;
 }
 
+.title-detalhes h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title-detalhes h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 2.5;
+}
+
+.title-detalhes a:hover {
+    color: black;
+}
+
 .container-sobre {
     display: flex;
     flex-direction: column;
@@ -172,6 +187,7 @@ body {
     flex-direction: column;
     line-height: 2;
     font-size: 1.3rem;
+    text-align: justify;
 }
 
 .topicos-igualdade {
@@ -275,6 +291,7 @@ body {
     .title-home h1 {
         font-size: 2.5rem;
     }
+    
 
     .foto  {
         width: 40vw;
