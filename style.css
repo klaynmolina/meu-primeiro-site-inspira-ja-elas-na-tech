@@ -1,0 +1,342 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #FF3A21;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E8E8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* RESET */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #FF3A21 #FF3A21;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+    /* background-color: #FF3A21; */
+    background-color: #FF3A21;
+    border-radius: 20px;
+    border: 3px solid #FF3A21;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    min-height: 100%;
+}
+
+.container-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    width: 100vw;
+}
+
+#home {
+    overflow: hidden;
+}
+
+.foto img {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.foto-igualdade {
+    margin-bottom: 5%;
+}
+
+.foto-igualdade img {
+    width: 10vw;
+    border-radius: 10px;
+}
+
+.title-home h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.title-home h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.header-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-sobre h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.header-sobre h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.header-sobre h3 {
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 5%;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.ods {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.ods h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3%;
+    line-height: 2;
+    color: black;
+}
+
+.ods-title {
+    font-size: 2.5rem;
+}
+
+.title-igualdade {
+    font-size: 2rem;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.topicos-igualdade {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.topicos-igualdade h2 {
+    margin-bottom: 4%;
+}
+
+.topicos h2 {
+    color: black;
+}
+
+.separador {
+    margin-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 25px;
+    font-size: larger;
+}
+
+.footer-home {
+    height: 75px;
+}
+
+
+.footer-sobre {
+    height: 75px;
+    width: 100%;
+}
+
+.footer a,
+.footer p {
+    color: whitesmoke;
+}
+
+.links a {
+    padding: 25px;
+}
+
+.links button {
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.links button:hover {
+    transform: scale(1.25);
+    color: #FF3A21;
+}
+
+.footer .links a,
+.footer .copyright a {
+    color: whitesmoke;
+}
+
+.klaynmolina:hover {
+    background-image: linear-gradient(to left, turquoise, steelblue, rebeccapurple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: whitesmoke;
+}
+
+/* smartphones menores */
+@media screen and (max-width: 400px) {
+
+    .container-sobre {
+        margin-left: 1%;
+    }
+
+}
+
+/* smartphone */
+@media screen and (max-width: 550px) {
+
+    .header-sobre {
+        text-align: center;
+    }
+
+    .ods-title {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .container-home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-home h1 {
+        font-size: 2.5rem;
+    }
+
+    .foto  {
+        width: 40vw;
+        margin-top: 10%;
+    }
+
+    .foto-igualdade img {
+        width: 30vw;
+        margin-top: 5%;
+    }
+
+    .title-igualdade {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .sub-container {
+        margin: 0;
+    }
+
+    .topicos {
+        text-align: center;
+    }
+
+    .topicos-igualdade {
+        padding: 15px;
+    }
+
+    .t-ods {
+        margin-top: 5%;
+    }
+
+    .foto img {
+        width: 90vw;
+        border-radius: 10px;
+    }
+
+    .footer {
+        font-size: small;
+    }
+
+    .footer .links {
+       line-height: 2.5;
+    }
+
+    .footer .links a{
+        padding: 0;
+    }
+
+    .footer-home {
+        width: 105%;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .footer-sobre {
+        align-items: center;
+    }
+
+    .link-acesso {
+        font-size: 1.2rem;
+    }
+
+}
