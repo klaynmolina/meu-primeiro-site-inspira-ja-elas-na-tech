@@ -127,7 +127,6 @@ body {
 }
 
 .empoderamento img {
-    margin-right: 50%;
     width: 400px;
 }
 
@@ -243,7 +242,10 @@ body {
 }
 
 .footer-home {
-    height: 75px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
