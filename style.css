@@ -62,6 +62,12 @@ body {
     min-height: 100%;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-home {
     display: flex;
     align-items: center;
@@ -388,6 +394,20 @@ body {
     .links {
         display: flex;
         flex-direction: column;
+    }
+
+    .detalhes img {
+        margin-top: -20%;
+    }
+
+    .title-detalhes {
+        width: auto;
+    }
+
+    .title-detalhes h3 {
+        text-align: center;
+        padding: 20px;
+        text-decoration: underline;
     }
 
 }
