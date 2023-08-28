@@ -318,9 +318,9 @@ body {
     .title-home h1 {
         font-size: 2.5rem;
     }
-    
 
-    .foto  {
+
+    .foto {
         width: 40vw;
         margin-top: 10%;
     }
@@ -361,26 +361,33 @@ body {
         font-size: small;
     }
 
-    .footer .links {
-       line-height: 2.5;
+    .footer .link-acesso {
+        padding: 0;
+        margin-bottom: 10px;
     }
 
-    .footer .links a{
+    .footer .links a {
         padding: 0;
     }
 
     .footer-home {
         width: 105%;
+        height: 11%;
         position: fixed;
         bottom: 0;
     }
-    
+
     .footer-sobre {
         align-items: center;
     }
 
     .link-acesso {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
     }
 
 }
