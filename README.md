@@ -22,3 +22,8 @@ Ela promove a justiça social, a inclusão e o respeito pelos direitos humanos d
 No website, você encontrará informações detalhadas sobre o ODS 5 e seu impacto na sociedade. 
 São abordados tópicos como estratégias para alcançar a igualdade de gênero, 
 histórias inspiradoras de mulheres que estão fazendo a diferença e recursos para aprofundar seu conhecimento sobre esse assunto crucial.
+
+## Como Usar
+
+Para visualizar o cardápio virtual, basta abrir o [link](https://klaynmolina.github.io/meu-primeiro-site-inspira-ja-elas-na-tech/) em um navegador da web. 
+Não é necessário um servidor web para executar este projeto, pois é uma página estática.
